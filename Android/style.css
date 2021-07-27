@@ -1,0 +1,135 @@
+
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1626899555527-ab49edcafd1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+    
+}
+
+header {
+    max-width: 100%;
+    min-width: 400px;
+    height: 200px;
+    background: url('https://images.unsplash.com/photo-1626899555527-ab49edcafd1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+}
+
+#title-header {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+}
+
+#subt {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+}
+
+.nave {
+    position: fixed;
+    list-style: none;
+    
+}
+
+.menu {
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    background: white;
+    max-width: 70%;
+    min-width: 400px;
+    height: 100%;
+    margin: auto;
+    font-family: idroid, sans-serif;
+    padding: 20px;
+    line-height: 2.0em;
+    box-shadow: 0px 7px 5px 5px rgb(0 0 0 / 43%);
+    
+}
+
+.title-main {
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.video {
+    position: relative;
+    height: 0px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-bottom: 59%;
+    
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
+
+@media (max-width: 1230px) {
+    .nave {
+        list-style: none;
+        display: flex;
+        padding-left: 20px ;
+        position: unset;
+        justify-content: center;
+        padding: 0
+    }
+
+    svg {
+        display: none;
+    }
+
+    .menu {
+        padding-left: 10px ;
+        padding-right: 10px;
+        padding-top: 20px;
+        
+        color: white;
+        font-weight: bold;
+        border-radius: 10px 10px 0 0;
+        font-weight: 400;
+    }
+
+    .menu:hover {
+        background: rgba(0, 0, 0, 0.26);
+        transition: 1s;
+        
+    }
+}
+
